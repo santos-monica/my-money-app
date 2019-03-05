@@ -1,6 +1,6 @@
 import React from 'react'
 
-const menuItem = (props) => {
+const MenuItem = (props) => {
   return (
     <li>
       <a href={props.path}>
@@ -10,4 +10,4 @@ const menuItem = (props) => {
   )
 }
 
-export default menuItem
+export default MenuItem

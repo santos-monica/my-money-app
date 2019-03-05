@@ -1,6 +1,6 @@
 import React from 'react'
 
-const menuTree = (props) => {
+const MenuTree = (props) => {
   return (
     <li className='treeview'>
       <a href>
@@ -14,4 +14,4 @@ const menuTree = (props) => {
   )
 }
 
-export default menuTree
+export default MenuTree
